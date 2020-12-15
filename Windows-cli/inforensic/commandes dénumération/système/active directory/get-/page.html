@@ -1,0 +1,17 @@
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Get-*</title>
+</head><body>Get-ADDomainController -credential &lt;username&gt;@&lt;domain&gt;.&lt;domain&gt;	<b># Afficher les informations principales de l'AD (nécessite authentification)<br/>
+</b><br/>
+Get-ADDomainController -filter {isGlobalcatalog -eq $true}				<b># Afficher les DC du catalogue global<br/>
+</b><br/>
+Get-ADDomain												<b># Affiche toutes les informations de l'AD</b><br/>
+<br/>
+Get-ADDomain | FT forest, RIDMASTER, pdcemulator -A				<b># Afficher les RIDMASTER du DC<br/>
+</b><br/>
+Get-ADforest												<b># Afficher tout les domaines dans sa forêt<br/>
+</b><b><br/>
+</b>Get-ADComputer -filter *										<b># Affiche tout les membres du domaine<br/>
+</b><b><br/>
+</b></body></html>
