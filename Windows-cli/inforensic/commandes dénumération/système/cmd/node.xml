@@ -3,15 +3,15 @@
 <version>6</version>
 <dict>
   <key>expanded</key><true/>
-  <key>title</key><string>cmd</string>
   <key>nodeid</key><string>ad643f84-1e5b-420c-be31-c96373d5fd0f</string>
   <key>modified_time</key><integer>1607956564</integer>
-  <key>version</key><integer>6</integer>
   <key>content_type</key><string>application/x-notebook-dir</string>
   <key>created_time</key><integer>1607956564</integer>
   <key>info_sort_dir</key><integer>1</integer>
-  <key>order</key><integer>0</integer>
-  <key>info_sort</key><string>order</string>
   <key>icon</key><string>folder-grey.png</string>
+  <key>title</key><string>cmd</string>
+  <key>version</key><integer>6</integer>
+  <key>order</key><integer>1</integer>
+  <key>info_sort</key><string>order</string>
 </dict>
 </node>

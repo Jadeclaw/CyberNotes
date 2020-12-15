@@ -1,0 +1,17 @@
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>wmic process</title>
+</head><body>wmic permet de retourner des informations système<br/>
+<br/>
+<b><u>Exemples :</u></b><br/>
+<br/>
+wmic process list full								<b># affiche la liste complète de tout les processus du système</b><br/>
+<br/>
+wmic process get name,parentprocessid,processID		<b># affiche tout les processus et leurs parents<br/>
+</b><b><br/>
+</b>wmic process where &quot;processID=736&quot; get commandline	<b># affiche le chemin du processus N°736 (là ou il est stocké)<br/>
+</b><b><br/>
+</b>wmic startup get caption,command					<b># affiche les tâches lancées au démarrage du système<br/>
+</b><b><br/>
+</b></body></html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>forfiles</title>
+</head><body>permet de rechercher des fichiers dans notre disque<br/>
+<br/>
+<u><b>Exemples :</b></u><br/>
+<br/>
+forfiles /D -10 /s /m *.exe /c &quot;cmd /c echo @path&quot; &gt;&gt; exefiles.txt		<b># permet d'aficher les .exe dans <u><br/>
+</u></b><b><u><br/>
+</u></b>forfiles /P C:\ /s /m *.txt									<b># affiche tout les .txt dans C:<br/>
+</b><b><br/>
+</b>forfiles /d -10 /s /m *.exe /c &quot;cmd /c echo @ext @fname @fdate&quot;		<b># affiche un tri détaillé des .exe dans C:</b></body></html>
